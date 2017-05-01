@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="team-avatar">
+  <h1>Our team</h1>
+    <ul style="min-height: 100vh" class="list-inline">
+      <% ["Kris", "Flo", "Saelle", "Kerian"].each do |member| %>
+        <li>
+          <%= image_tag "#{member}.jpg", class: "img-circle team-avatar" %>
+          <h3><%= member.capitalize %></h3>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+  <div class="team-contact">
+    <a href="">contact@maitika.com</a>
+  </div>
+</div>

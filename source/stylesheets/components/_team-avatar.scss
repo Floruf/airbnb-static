@@ -1,0 +1,15 @@
+.team-avatar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  display: inline;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+.team-avatar a {
+  font-size: 28px;
+  padding: 30px;
+}
